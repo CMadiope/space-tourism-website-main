@@ -53,6 +53,12 @@ li {
 letter-spacing: 2.7px;
 }
 
+li::after {
+  
+}
+
+
+
 hr {
   position: absolute;
   width: 473px;
