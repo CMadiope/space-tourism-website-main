@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -65,4 +67,89 @@ hr {
 .logo {
   cursor: pointer;
   padding-top: 20px;
+}
+
+.hero {
+  position: absolute;
+  width: 450px;
+  height: 382px;
+  left: 165px;
+  top: 387px;
+  color: white;
+}
+
+.first-p {
+  position: absolute;
+  height: 34px;
+  left: 0.11%;
+  right: 15.67%;
+  top: calc(50% - 34px/2 - 174px);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+}
+
+.space {
+  position: absolute;
+  height: 172px;
+  left: 0%;
+  right: 1.11%;
+  top: calc(50% - 172px/2 - 47px);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 172px;
+  font-family: 'Bellefair', sans-serif;
+}
+
+.second-p {
+  position: absolute;
+  height: 128px;
+  left: 0.11%;
+  right: 1.22%;
+  top: calc(50% - 128px/2 + 127px);
+
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.circle {
+  position: absolute;
+  width: 274px;
+  height: 274px;
+  left: 1001px;
+  top: 495px;
+  text-align: center;
+}
+.white {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.circle h3 {
+  position: absolute;
+    height: 37px;
+    left: 22.63%;
+    right: 23.36%;
+    top: calc(50% - 37px/2 + 0.5px);
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+  
+    letter-spacing: 2px;
+  
+    color: #0B0D17;
 }
