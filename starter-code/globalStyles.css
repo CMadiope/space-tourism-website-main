@@ -217,6 +217,9 @@ a {
   left: 230px;
   top: 343px;
 }
+a:hover {
+  opacity: 0.5;
+}
 
 .planet-info {
   position: absolute;
