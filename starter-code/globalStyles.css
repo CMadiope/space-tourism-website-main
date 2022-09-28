@@ -7,6 +7,7 @@
   width: 1440px;
   height: 900px;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .container-crew {
@@ -14,6 +15,16 @@
   width: 1440px;
   height: 900px;
   position: relative;
+  background-repeat: no-repeat;
+}
+
+.container-technology {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  background: #0B0D17;
+  background-image: url('./assets/technology/background-technology-desktop.jpg');
+  background-repeat: no-repeat;
 }
 
 * {
@@ -54,6 +65,9 @@ li {
   letter-spacing: 2.7px;
 }
 
+li:hover {
+  opacity: 0.5;
+}
 
 hr {
   position: absolute;
@@ -374,4 +388,202 @@ a {
 
 .active {
   opacity: 1;
+}
+.space {
+  position: absolute;
+    width: 305px;
+    height: 34px;
+    left: 166.5px;
+    top: 212px;
+}
+.space p{
+  position: absolute;
+  height: 34px;
+  left: 17.7%;
+  right: 2.3%;
+  top: calc(50% - 34px/2);
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #FFFFFF;
+}
+
+.space span {
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+.first-nav {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 165px;
+  top: 383px;
+  cursor: pointer;
+}
+
+.circle-one {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #FFFFFF;
+  border-radius: 50%;
+  
+}
+.circle-one span {
+position: absolute;
+  height: 37px;
+  left: 44.38%;
+  right: 43.12%;
+  top: calc(50% - 37px/2 + 0.5px);
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #0B0D17;
+}
+
+.second-nav {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 165px;
+  top: 495px;
+}
+
+.circle-two {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+.circle-two span {
+  position: absolute;
+  height: 37px;
+  left: 40.62%;
+  right: 39.38%;
+  top: calc(50% - 37px/2 + 0.5px);
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.third-nav {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 165px;
+  top: 607px;
+}
+
+.circle-three {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+.circle-three span {
+  position: absolute;
+  height: 37px;
+  left: 40.62%;
+  right: 39.38%;
+  top: calc(50% - 37px/2 + 0.5px);
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+
+.tech-info {
+  position: absolute;
+  width: 470px;
+  height: 303px;
+  left: 325px;
+  top: 383px;
+}
+
+.terminology {
+  position: absolute;
+  height: 19px;
+  left: 0%;
+  right: 68.09%;
+  top: calc(50% - 19px/2 - 142px);
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #D0D6F9;
+}
+
+.tech-title {
+  position: absolute;
+  height: 64px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 64px/2 - 89.5px);
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.tech-descript {
+  position: absolute;
+  height: 192px;
+  left: 0%;
+  right: 5.53%;
+  top: calc(50% - 192px/2 + 55.5px);
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #D0D6F9;
+}
+
+.tech-img {
+  position: absolute;
+  width: 515px;
+  height: 527px;
+  left: 925px;
+  top: 272px;
+  background-repeat: no-repeat;
 }

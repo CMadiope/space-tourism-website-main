@@ -1,0 +1,9 @@
+body {
+  font-size: 16px;
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: #0B0D17;
+}
+
+.launch {
+  background-image: url('./assets/technology/image-launch-vehicle-portrait.jpg');
+}
