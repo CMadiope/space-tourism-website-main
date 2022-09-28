@@ -1,32 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./globalStyles.css" />
+    <link rel="stylesheet" href="./capsule.css" />
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+    <title>Space tourism | Technology | Space capsule</title>
+  </head>
+  <body>
+    <div class="container-technology">
+      <header>
+        <div class="logo">
+          <img src="./assets/shared/logo.svg" alt="logo" />
+        </div>
+        <hr />
+        <nav>
+          <ul>
+            <li class="link active"><a href="./index.html">00 Home</a></li>
+            <li class="link">
+              <a href="./destination-moon.html">01 Destination</a>
+            </li>
+            <li class="link"><a href="./crew-specialist.html">02 Crew</a></li>
+            <li class="link">
+              <a href="./technology-vehicle.html">03 Technology</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="main">
+        <div class="space">
+          <p><span>03</span> Space launch 101</p>
+        </div>
+        <div class="first-nav">
+          <a href="./technology-vehicle.html" class="circle-one">
+            <span>1</span>
+          </a>
+        </div>
+        <div class="second-nav">
+          <a href="./technology-spaceport.html" class="circle-two">
+            <span>2</span>
+          </a>
+        </div>
+        <div class="third-nav">
+          <a href="./technology-capsule.html" class="circle-three">
+            <span>3</span>
+          </a>
+        </div>
+        <div class="tech-info">
+          <div class="terminology">The terminology...</div>
+          <div class="tech-title">Space capsule</div>
+          <div class="tech-descript">
+            A space capsule is an often-crewed spacecraft that uses a blunt-body
+            reentry capsule to reenter the Earth's atmosphere without wings. Our
+            capsule is where you'll spend your time during the flight. It
+            includes a space gym, cinema, and plenty of other activities to keep
+            you entertained.
+          </div>
+        </div>
+      </div>
+      <div class="tech-img launch"></div>
+    </div>
 
-  03 Space launch 101
-
-  1
-  2
-  3
-
-  The terminology...
-  Space capsule
-
-  A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
-  capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
-  you'll spend your time during the flight. It includes a space gym, cinema, 
-  and plenty of other activities to keep you entertained.
-</body>
+    <script src="./main.js"></script>
+  </body>
 </html>
