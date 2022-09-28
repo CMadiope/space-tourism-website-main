@@ -9,6 +9,13 @@
   position: relative;
 }
 
+.container-crew {
+  background-image: url('./assets/crew/background-crew-desktop.jpg');
+  width: 1440px;
+  height: 900px;
+  position: relative;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -227,4 +234,144 @@ a {
   line-height: 115px;
   color: #FFFFFF;
   text-transform: uppercase;
+}
+
+.meet {
+  position: absolute;
+  width: 286px;
+  height: 34px;
+  left: 166.5px;
+  top: 212px;
+}
+
+.meet p{
+  position: absolute;
+  height: 34px;
+  left: 18.88%;
+  right: 1.4%;
+  top: calc(50% - 34px/2);
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #FFFFFF;
+}
+
+.meet span {
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+.job-title {
+  position: absolute;
+  width: 309px;
+  height: 37px;
+  left: 165.5px;
+  top: 400px;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.crew-name {
+  position: absolute;
+  width: 614px;
+  height: 64px;
+  left: 165.5px;
+  top: 452px;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.crew-descript {
+  position: absolute;
+  width: 444px;
+  height: 128px;
+  left: 165px;
+  top: 543px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #D0D6F9;
+}
+
+.crew-img {
+  position: absolute;
+  width: 453.44px;
+  height: 654px;
+  left: 800px;
+  top: 246px;
+  background-repeat: no-repeat;
+}
+
+.crew-nav a {
+  border-radius: 50%;
+}
+
+.specialist-circle{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 167px;
+  top: 791px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.17;
+}
+
+.pilot-circle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 206px;
+  top: 791px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.17;
+}
+
+.engineer-circle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 245px;
+  top: 791px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.17;
+}
+
+.commander-circle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 284px;
+  top: 791px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.17;
+}
+
+.dot:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
 }
