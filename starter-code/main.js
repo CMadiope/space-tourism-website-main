@@ -9,3 +9,11 @@ for (let i =0; i < dots.length; i ++) {
     this.className += 'active'
   })
 }
+
+// home page 
+function responseHome() {
+  const header = document.getElementById('header')
+  if (header.className === 'topnav') {
+    header.className += 'responsive'
+  }
+}

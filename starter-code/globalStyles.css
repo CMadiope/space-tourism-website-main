@@ -217,9 +217,9 @@ a {
   left: 230px;
   top: 343px;
 }
-a:hover {
+/* a:hover {
   opacity: 0.5;
-}
+} */
 
 .planet-info {
   position: absolute;
@@ -389,9 +389,9 @@ a:hover {
   opacity: 1;
 }
 
-.active {
+/* .active {
   opacity: 1;
-}
+} */
 .space {
   position: absolute;
     width: 305px;
@@ -435,12 +435,16 @@ a:hover {
   right: 0%;
   top: 0%;
   bottom: 0%;
-  background: #FFFFFF;
+  /* background: #FFFFFF; */
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border: 1px solid #FFFFFF;
   border-radius: 50%;
-  
+
+
 }
 .circle-one span {
-position: absolute;
+  position: absolute;
   height: 37px;
   left: 44.38%;
   right: 43.12%;
@@ -452,7 +456,13 @@ position: absolute;
   line-height: 37px;
   text-align: center;
   letter-spacing: 2px;
-  color: #0B0D17;
+  color: #FFFFFF;
+}
+
+.circle-one:hover {
+  background-color: #fff;
+
+  
 }
 
 .second-nav {
@@ -589,4 +599,12 @@ position: absolute;
   left: 925px;
   top: 272px;
   background-repeat: no-repeat;
+}
+
+/* responsive design */
+
+@media only screen and (max-width: 768px){
+  header {
+    width: 100%;
+  }
 }
